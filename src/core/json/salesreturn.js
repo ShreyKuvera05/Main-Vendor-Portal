@@ -1,0 +1,80 @@
+export const salersretrunsdata = [
+	{
+		"id":1,
+		"img":"assets/img/products/pos-product-02.png",
+		"productname":"Macbook pro",
+		"date": "19 Nov 2022",
+		"customer": "Thomas",
+		"status": "Received",
+		"grandtotal": "550",
+		"paid": "120",
+		"due": "550",
+		"paymentstatus":"Paid",
+		
+	},
+	{
+		"id":2,
+		"img":"assets/img/products/stock-img-05.png",
+		"productname":"Sofa",
+		"date": "19 Nov 2022",
+		"customer": "Benjamin",
+		"status": "Pending",
+		"grandtotal": "550",
+		"paid": "120",
+		"due": "550",
+		"paymentstatus":"Unpaid",
+		
+	},
+	{
+		"id":3,
+		"img":"assets/img/products/stock-img-03.png",
+		"productname":"Pineapple",
+		"date": "19 Nov 2022",
+		"customer": "James",
+		"status": "Pending",
+		"grandtotal": "210",
+		"paid": "120",
+		"due": "210",
+		"paymentstatus":"Unpaid",
+		
+	},
+	{
+		"id":4,
+		"img":"assets/img/products/stock-img-01.png",
+		"productname":"Strawberry",
+		"date": "19 Nov 2022",
+		"customer": "Bruklin",
+		"status": "Received",
+		"grandtotal": "210",
+		"paid": "120",
+		"due": "210",
+		"paymentstatus":"Paid",
+		
+	},
+	{
+		"id":5,
+		"img":"assets/img/products/stock-img-06.png",
+		"productname":"Avocat",
+		"date": "19 Nov 2022",
+		"customer": "Beverly",
+		"status": "Pending",
+		"grandtotal": "210",
+		"paid": "120",
+		"due": "210",
+		"paymentstatus":"Unpaid",
+		
+	},
+	{
+		"id":6,
+		"img":"assets/img/products/stock-img-02.png",
+		"productname":"Apple Earpods",
+		"date": "19 Nov 2022",
+		"customer": "Apex Computers",
+		"status": "Ordered",
+		"grandtotal": "1000",
+		"paid": "500",
+		"due": "1000",
+		"paymentstatus":"Partial",
+		
+	}
+]

@@ -1,0 +1,265 @@
+.shakersss {
+  animation: shakerax 0.5s;
+}
+
+@keyframes shakerax {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.cart-hover:hover {
+  color: #28c76f;
+  cursor: pointer;
+}
+
+/* ==================Checkbox================ */
+.checkbox-apple {
+  position: relative;
+  width: 50px;
+  height: 25px;
+  margin: 0px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.checkbox-apple label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 25px;
+  border-radius: 50px;
+  background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkbox-apple label:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 23px;
+  height: 23px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.checkbox-apple input[type="checkbox"]:checked + label {
+  background: linear-gradient(to bottom, #ff9f43, #ff9f43);
+}
+
+.checkbox-apple input[type="checkbox"]:checked + label:after {
+  transform: translateX(25px);
+}
+
+.checkbox-apple label:hover {
+  background: linear-gradient(to bottom, #b3b3b3, #e6e6e6);
+}
+
+.checkbox-apple label:hover:after {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.yep {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 25px;
+}
+
+/* TABLE SPECIFIC STYLING  */
+.custom-row-style:hover {
+  background-color: violet; /* Change background color on hover */
+}
+
+/* -------------------- */
+
+.custom-tColor {
+  color: #000000;
+}
+
+.css-1fdsijx-ValueContainer .css-1dimb5e-singleValue {
+  color: #000000 !important;
+}
+
+.react-select-3-input {
+  color: #000000 !important;
+}
+
+.ant-table-thead > tr > th {
+  background-color: #ccc !important; /* Change to your desired color */
+  color: #000; /* Optionally set the text color */
+}
+
+.right-align {
+  text-align: right;
+}
+
+.fixed-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #f1f1f1;
+  z-index: 1;
+}
+.total-row {
+  background-color: #ffd580 !important;
+}
+
+.sticky-column {
+  position: sticky;
+  left: 0;
+  background-color: #5e5e5e; /* Ensure this matches the header background */
+  z-index: 2; /* Adjust as necessary to ensure it stays above other content */
+}
+
+.sticky-column + .sticky-column {
+  left: 100px; /* Adjust this value according to the width of the first sticky column */
+}
+
+.quarterly-bg {
+  background-color: #583e23;
+}
+
+.normal-bg {
+  background-color: "#0E103D";
+}
+
+.mod-height {
+  max-height: 80% !important;
+  overflow-y: auto;
+}
+
+/* Button styling */
+.pdf-btn {
+  padding: 8px 8px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Primary button color */
+.pdf-btn-primary {
+  background-color: #ff2b06;
+  color: white;
+}
+
+/* Hover effect */
+.pdf-btn-primary:hover {
+  background-color: #c91700;
+  transform: translateY(-2px);
+}
+
+/* Focus effect */
+.pdf-btn-primary:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 1, 1, 0.959);
+}
+
+/* Icon margin */
+.pdf-btn .ms-auto {
+  margin-left: auto;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////
+ */
+.cardsx {
+  color: white;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  margin-bottom: 30px;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1),
+    0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1),
+    0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12),
+    0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+}
+
+.l-bg-cherry {
+  background: linear-gradient(to right, #493240, #f09) !important;
+  color: #fff;
+}
+
+.l-bg-blue-dark {
+  background: linear-gradient(to right, #373b44, #4286f4) !important;
+  color: #fff;
+}
+
+.l-bg-green-dark {
+  background: linear-gradient(to right, #0a504a, #38ef7d) !important;
+  color: #fff;
+}
+
+.l-bg-orange-dark {
+  background: linear-gradient(to right, #a86008, #ffba56) !important;
+  color: #fff;
+}
+
+.cardsx .cardsx-statistic-3 .cardsx-icon-large .fas,
+.cardsx .cardsx-statistic-3 .cardsx-icon-large .far,
+.cardsx .cardsx-statistic-3 .cardsx-icon-large .fab,
+.cardsx .cardsx-statistic-3 .cardsx-icon-large .fal {
+  font-size: 110px;
+}
+
+.cardsx-title {
+  color: #fff;
+}
+
+.cardsx .cardsx-statistic-3 .cardsx-icon {
+  text-align: center;
+  line-height: 50px;
+  margin-left: 15px;
+  color: #000;
+  position: absolute;
+  right: -5px;
+  top: 20px;
+  opacity: 0.1;
+}
+.cardsx:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.l-bg-cyan {
+  background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+  color: #fff;
+}
+
+.l-bg-green {
+  background: linear-gradient(135deg, #23bdb8 0%, #43e794 100%) !important;
+  color: #fff;
+}
+
+.l-bg-orange {
+  background: linear-gradient(to right, #f9900e, #ffba56) !important;
+  color: #fff;
+}
+
+.l-bg-cyan {
+  background: linear-gradient(135deg, #289cf5, #84c0ec) !important;
+  color: #fff;
+}
